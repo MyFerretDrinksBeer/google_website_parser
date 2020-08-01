@@ -12,14 +12,8 @@
 const pathToSearchWords = './saved/words.txt';
 
 
-
-
-const got = require('got');
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
 const fs = require('fs');
 const puppeteer = require('puppeteer');
-
 
 const go = async (s, i) => {
 	const browser = await puppeteer.launch();
