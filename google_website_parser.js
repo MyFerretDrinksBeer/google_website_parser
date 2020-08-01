@@ -9,7 +9,7 @@
  *
  *	Set this to the .txt with search words you want to search (seperated by commas)
  */
-const pathToSearchWords = './saved/words.txt';
+const pathToSearchWords = './words.txt';
 
 
 const fs = require('fs');
